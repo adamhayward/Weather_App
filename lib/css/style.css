@@ -42,3 +42,9 @@ button {
     border: yellow;
     
 }
+#city   {
+    float: left;
+    margin-right: 50px;
+}
+
+
