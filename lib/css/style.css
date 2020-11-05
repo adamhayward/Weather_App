@@ -13,6 +13,11 @@ form    {
     background-color:lightgray;
 }
 
+h3 {
+    text-align: center;
+    font-size: 35px;
+}
+
 .forecasted-days {
     margin: 5px;
     border-radius: 5%;
@@ -33,8 +38,6 @@ form    {
 #forecast{
     margin-left: 0px;
 }
-
-
 
 button {
     border-style: solid;
