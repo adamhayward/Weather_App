@@ -1,3 +1,4 @@
+/* responsibel for sytlng the header element */
 header  {
     width: 100%;
     height: 100px;
@@ -5,19 +6,33 @@ header  {
     color: white;
     text-align: center;
 }
-
+/* responsibel for sytlng the form element */
 form    {
     width: 100%;
     margin-top: 10px;
     padding: 10px;
     background-color:lightgray;
 }
-
+/* styles all h3 tags */
 h3 {
     text-align: center;
     font-size: 35px;
 }
-
+/* responsible for styling the search button */
+button {
+    border-style: solid;
+    border-width: 10px;
+    border: yellow;
+    
+}
+/* styles the area where current weatehr is dispalyed  */
+.jumbotron  {
+    margin: 25px 0px 10px 0px;
+    padding: 25px 0px 5px 25px;
+    border-width:3px;
+    border: blue;
+}
+/* styles the blue boxes for the forcast weather to appear in */
 .forecasted-days {
     margin: 5px;
     border-radius: 5%;
@@ -27,24 +42,11 @@ h3 {
     color: white;
     font-size: 16px;
 }
-
-.jumbotron  {
-    margin: 25px 0px 10px 0px;
-    padding: 25px 0px 5px 25px;
-    border-width:3px;
-    border: blue;
-}
-
+/* aligns "forecast" row */
 #forecast{
     margin-left: 0px;
 }
-
-button {
-    border-style: solid;
-    border-width: 10px;
-    border: yellow;
-    
-}
+/* aligns the city text */
 #city   {
     float: left;
     margin-right: 50px;
